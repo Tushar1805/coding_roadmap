@@ -1,0 +1,83 @@
+
+NOTE:- Taken row= 5 for showing sample pattern, you need to take input for 
+       rows and then print the pattern accordingly.
+
+1. *
+   * *
+   * * *
+   * * * *
+   * * * * *
+
+
+2. * * * * *
+   * * * *
+   * * *
+   * *
+   *
+
+3.         *
+         * *
+       * * *
+     * * * *
+   * * * * *
+
+
+4. * * * * *
+     * * * *
+       * * *
+         * *
+           *
+
+
+5.          *
+         * * *
+       * * * * * 
+     * * * * * * *
+   * * * * * * * * *
+
+
+6. * * * * * * * * *
+     * * * * * * *
+       * * * * *
+         * * *
+           *
+
+7. *               *
+   * *           * *
+   * * *       * * *
+   * * * *   * * * *
+   * * * * * * * * *
+
+
+8. * * * * * * * * * 
+   * * * *   * * * *
+   * * *       * * *
+   * *           * *
+   *               *
+
+9. * * * * *
+   *       *         
+   *       *
+   *       *
+   * * * * *
+
+10.*       *     for printing x not need to take number of rows as input, can take any no. and manipulate
+     *   *
+       *  
+     *   *
+   *       *
+
+11. * * * * *    Same as above
+    * *   * *
+    *   *   *
+    * *   * *
+    * * * * *
+
+12.     +
+        +
+    + + + + +
+        +
+        +
+
+
+13. Print Your names's initials in star pattern like mine are "TRK" ;

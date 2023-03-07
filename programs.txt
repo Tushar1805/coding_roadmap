@@ -1,0 +1,40 @@
+1. print all natural numbers from 1 to n
+2. print all natural numbers in reverse (from n to 1)
+3. print all alphabets from a to z.
+4. print all even number between 1 to 100
+5. print all odd numbers between 1 to 100
+6. find sum of all natural numbers between 1 to n
+7. find sum of all even numbers between 1 to n
+8. sum of all odd numbers between 1 to n.
+9. print multiplication table of any number.
+10. count number of digits in a number.
+11. Find first and last digit of a number
+12. find sum of first and last digit of a number 
+13. swap first and last digits of a number 
+14. calculate sum of digits of a nubmber 
+15. calculate product of digits of a number 
+16. enter a number and print its reverse
+17. check whether a number is palindrome or not
+18. find frequency of each digit in a given integer
+19. enter a number and print it in words.
+20. print all ASCII character with their values
+21. find the power of a number using for loop
+22. find all factors of a number 
+23. calculate factorial of a number
+24. C program to find HCF (GCD) of two numbers
+25. C program to find LCM of two numbers
+26. C program to check whether a number is prime or not
+27. C program to print all prime numbers between 1 to n
+28. C program to find sum of all prime numbers between 1 to n
+29. Find all prime factors of a number
+30. Check whether a number is armstrong number or not
+31. print all armstrong numbers between 1 to n
+32. Check whether a number is perfect number or not
+33. print all perfect numbers between 1 to n
+34. check whether a number is strong number or not
+35. print all strong numbers between 1 to n
+36. print fibonacci series up to n terms
+37. star pattern programs
+38. number pattern programs 
+39. print pascal triangle upto n rows
+40. practice DSA
