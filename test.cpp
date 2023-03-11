@@ -14,6 +14,10 @@ int main(int argc, char const *argv[])
 	// char a = ascii;
 	// cout<<a;
 
+	//Precision
+	int  a = 1, b = 5;
+	printf("R: %.6f", a/b);
+
 	
 	return 0;
 }
