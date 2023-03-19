@@ -34,6 +34,7 @@
 34. check whether a number is strong number or not
 35. print all strong numbers between 1 to n
 36. print fibonacci series up to n terms
+37. Print array elements in alternate order (GFG - School level)
 37. star pattern programs
 38. number pattern programs 
 39. print pascal triangle upto n rows
