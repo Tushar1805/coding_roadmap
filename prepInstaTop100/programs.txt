@@ -21,9 +21,10 @@ link: https://prepinsta.com/top-100-codes/
 19  Factor of a number
 20. Finding Prime Factors of a number
 21. Strong number
-22. Perfect Square
-23. Automorphic number
-24. Harshad number
-25. Abundant number 
-26. Friendly pair 
+22. Perfect Number
+23. Perfect Square
+24. Automorphic number
+25. Harshad number
+26. Abundant number 
+27. Friendly pair 
 
