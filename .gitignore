@@ -1,3 +1,4 @@
 *.exe
 sortingTest.cpp
 test.cpp
+.gitignore
