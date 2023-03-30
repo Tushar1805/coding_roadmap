@@ -1,4 +1,9 @@
-// You are given an array A of size N. Let us denote S as the sum of all integers present in the array. Among all integers present in the array, find the minimum integer X such that S ≤ N*X.
+// https://practice.geeksforgeeks.org/problems/1ccf56f107bcb24242469ea45c02f852165a2184/1
+
+// Minimum Integer
+
+// You are given an array A of size N. Let us denote S as the sum of all integers present in the array. 
+// Among all integers present in the array, find the minimum integer X such that S ≤ N*X.
 
 // Example 1:
 
@@ -20,7 +25,9 @@
 // Explanation:
 // 3 is the only possible answer
 // Your Task:
-// The task is to complete the function minimumInteger() which takes an integer N and an integer array A as input parameters and returns the minimum integer which satisfies the condition.
+// The task is to complete the function minimumInteger() 
+// which takes an integer N and an integer array A as input parameters and 
+// returns the minimum integer which satisfies the condition.
 
 // Expected Time Complexity: O(N)
 // Expected Auxiliary Space: O(1)
