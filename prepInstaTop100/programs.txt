@@ -28,3 +28,31 @@ link: https://prepinsta.com/top-100-codes/
 26. Abundant number 
 27. Friendly pair 
 
+Working with Numbers
+
+28. Highest Common Factor(HCF)
+29. Lowest Common Multiple (LCM)
+30. Greatest Common Divisor 
+31. Binary to Decimal to conversion
+32. Octal to Decimal conversion
+33. Hexadecimal to Decimal conversion
+34. Decimal to Binary conversion
+35. Decimal to Octal Conversion:
+36. Decimal to Hexadecimal Conversion
+37. Binary to Octal conversion
+38. Octal to Binary conversion
+39. Quadrants in which a given coordinate lies
+40. Permutations in which n people can occupy r seats in a classroom 
+41. Maximum number of handshakes
+42. Addition of two fractions
+43. Replace all 0’s with 1 in a given integer
+44. Can a number be expressed as a sum of two prime numbers
+45. Count possible decoding of a given digit sequence 
+46. Calculate the area of a circle
+47. Find the prime numbers between 1 to 100
+48. Calculate the number of digits in an integer 
+49. Convert digit/number to words 
+50. Counting number of days in a given month of a year
+51. Finding Number of times x digit occurs in a given input
+52. Finding number of integers which has exactly x divisors
+53. Finding Roots of a quadratic equation
