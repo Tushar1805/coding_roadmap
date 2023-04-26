@@ -6,7 +6,7 @@
 
 // Size : 5
 // Elements of array : 5 7 2 1 6
-// Array after sorting : 1 2 5 6 7 
+// Array after sorting : 1 2 5 6 7
 
 #include <iostream>
 #include <conio.h>
@@ -20,65 +20,65 @@ class sort
 	int *a;
 
 public:
-	sort(int m){
+	sort(int m) {
 		n = m;
-		a = new int[m]; 
+		a = new int[m];
 	}
 
-	void display(){
+	void display() {
 		for (int i = 0; i < n; ++i)
 		{
-			cout<<a[i]<<" ";
+			cout << a[i] << " ";
 		}
 	}
 
-	void takeInput(){
+	void takeInput() {
 		for (int i = 0; i < n; ++i)
 		{
-			cin>>a[i];
+			cin >> a[i];
 		}
 	}
 
 	// 1
-	void bubbleSort(){
+	void bubbleSort() {
 		auto start = chrono::steady_clock::now();
 
-		for (int i = 0; i < n-1; ++i)
+		for (int i = 0; i < n - 1; ++i)
 		{
-			for (int j = 0; j < n-i-1; ++j)
+			for (int j = 0; j < n - i - 1; ++j)
 			{
-				if (a[j] > a[j+1])
+				if (a[j] > a[j + 1])
 				{
 					// int temp = a[j];
 					// a[j] = a[j+1];
 					// a[j+1] = temp;
-					swap(a[j], a[j+1]);
+					swap(a[j], a[j + 1]);
 				}
 			}
 		}
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nWorst Case Time Complexity: O(n^2)";
-		cout <<"\nBest Case Time Complexity: O(n^2)";
-		cout <<"\nSpace Complexity: O(1)\n";
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nWorst Case Time Complexity: O(n^2)";
+		cout << "\nBest Case Time Complexity: O(n^2)";
+		cout << "\nSpace Complexity: O(1)\n";
 	}
 
 	// 2
-	void revisedBubbleSort(){
+	void revisedBubbleSort() {
 		auto start = chrono::steady_clock::now();
 
-		for (int i = 0; i < n-1; ++i)
+		for (int i = 0; i < n - 1; ++i)
 		{
 			bool swapped = false;
-			for (int j = 0; j < n-i-1; ++j)
+			for (int j = 0; j < n - i - 1; ++j)
 			{
-				if (a[j] > a[j+1])
+				if (a[j] > a[j + 1])
 				{
 					// int temp = a[j];
 					// a[j] = a[j+1];
 					// a[j+1] = temp;
-					swap(a[j], a[j+1]);
+					swap(a[j], a[j + 1]);
 					swapped = true;
 				}
 			}
@@ -87,25 +87,25 @@ public:
 		}
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nWorst Case Time Complexity: O(n^2)";
-		cout <<"\nBest Case Time Complexity: O(n)";
-		cout <<"\nSpace Complexity: O(1)\n";
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nWorst Case Time Complexity: O(n^2)";
+		cout << "\nBest Case Time Complexity: O(n)";
+		cout << "\nSpace Complexity: O(1)\n";
 	}
 
 	// 3
-	void selectionSort(){
+	void selectionSort() {
 		auto start = chrono::steady_clock::now();
 		int min_index;
-		for (int i = 0; i < n-1; ++i)
+		for (int i = 0; i < n - 1; ++i)
 		{
 			min_index = i;
-			for (int j = i+1; j < n; ++j)
+			for (int j = i + 1; j < n; ++j)
 			{
 				if (a[j] < a[min_index])
 					min_index = j;
 			}
-			if (min_index != i){
+			if (min_index != i) {
 				// int temp = a[min_index];
 				// a[min_index] = a[i];
 				// a[i] = temp;
@@ -114,69 +114,69 @@ public:
 		}
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nWorst Case Time Complexity: O(n^2)";
-		cout <<"\nBest Case Time Complexity: O(n^2)";
-		cout <<"\nSpace Complexity: O(1)\n";
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nWorst Case Time Complexity: O(n^2)";
+		cout << "\nBest Case Time Complexity: O(n^2)";
+		cout << "\nSpace Complexity: O(1)\n";
 	}
 
 	// 4
-	void insertionSort(){
+	void insertionSort() {
 		auto start = chrono::steady_clock::now();
 
 		int key, j;
 		for (int i = 0; i < n; ++i)
 		{
 			key = a[i];
-			j = i-1;
-			while(j>=0 && a[j] > key){
-				a[j+1] = a[j];
-				j = j-1;
+			j = i - 1;
+			while (j >= 0 && a[j] > key) {
+				a[j + 1] = a[j];
+				j = j - 1;
 			}
-			a[j+1] = key;
+			a[j + 1] = key;
 		}
 
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nWorst Case Time Complexity: O(n^2)";
-		cout <<"\nBest Case Time Complexity: O(n)";
-		cout <<"\nSpace Complexity (Aux.): O(1)\n";
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nWorst Case Time Complexity: O(n^2)";
+		cout << "\nBest Case Time Complexity: O(n)";
+		cout << "\nSpace Complexity (Aux.): O(1)\n";
 	}
 
 	// 5
-	void quickSort(){
+	void quickSort() {
 		auto start = chrono::steady_clock::now();
 
-		quickSortMain(a, 0, n-1);
+		quickSortMain(a, 0, n - 1);
 
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nWorst Case Time Complexity: O(n^2)";
-		cout <<"\nBest Case Time Complexity: O(n log n)";
-		cout <<"\nSpace Complexity: O(1)";
-		cout <<"\nAuxiliary Space Complexity: O(log n)\n";
-	} 
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nWorst Case Time Complexity: O(n^2)";
+		cout << "\nBest Case Time Complexity: O(n log n)";
+		cout << "\nSpace Complexity: O(1)";
+		cout << "\nAuxiliary Space Complexity: O(log n)\n";
+	}
 
 	// 6
-	void mergeSort(){
+	void mergeSort() {
 		auto start = chrono::steady_clock::now();
 
-		mergeSortMain(a, 0, n-1);
+		mergeSortMain(a, 0, n - 1);
 
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nTime Complexity (Worst and Best): O(n log n)";
-		cout <<"\nSpace Complexity: O(n)\n";
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nTime Complexity (Worst and Best): O(n log n)";
+		cout << "\nSpace Complexity: O(n)\n";
 	}
 
 	// 7
-	void countSort(){
+	void countSort() {
 		auto start = chrono::steady_clock::now();
 
-		cout<<"Entered into the count sort\n";
+		cout << "Entered into the count sort\n";
 
 		int max;
 		int b[n];
@@ -200,12 +200,12 @@ public:
 		// Store the cummulative count of each array
 		for (int i = 1; i <= max; ++i)
 		{
-			count[i] = count[i] + count[i-1];
+			count[i] = count[i] + count[i - 1];
 		}
 
 		// Search the index of each element of the actual array in count array, and
 		// place the elements in output array
-		for (int i = n-1; i >= 0; --i)
+		for (int i = n - 1; i >= 0; --i)
 		{
 			b[--count[a[i]]] = a[i];
 		}
@@ -218,33 +218,33 @@ public:
 
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nTime Complexity: O(n+k)\nWhere, \n\tn - no. of elements of array\n\tk - range of distinct elements in array (or maximum number in the array)\n";
-		cout <<"\nSpace Complexity: O(n+k)\n";
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nTime Complexity: O(n+k)\nWhere, \n\tn - no. of elements of array\n\tk - range of distinct elements in array (or maximum number in the array)\n";
+		cout << "\nSpace Complexity: O(n+k)\n";
 	}
 
 	// 8
-	void radixSort(){
+	void radixSort() {
 		auto start = chrono::steady_clock::now();
 
 		radixSortMain(a, n);
 
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
-		cout <<"\nTime Complexity: O(d*(n+k))\nWhere, \n\td - no. of digits of max number\n\tn - no. of elements of array\n\tk - range of distinct elements in array (or maximum number in the array)\n";
-		cout <<"\nSpace Complexity: O(n+k)\n";
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nTime Complexity: O(d*(n+k))\nWhere, \n\td - no. of digits of max number\n\tn - no. of elements of array\n\tk - range of distinct elements in array (or maximum number in the array)\n";
+		cout << "\nSpace Complexity: O(n+k)\n";
 	}
 
 	// 9
-	void bucketSort(){
+	void bucketSort() {
 		auto start = chrono::steady_clock::now();
 
 		// code here
 
 		auto end = chrono::steady_clock::now();
 		auto diff = end - start;
-		cout <<"\nTime Taken: "<< chrono::duration <double, milli> (diff).count() << " ms" << endl;
+		cout << "\nTime Taken: " << chrono::duration <double, milli> (diff).count() << " ms" << endl;
 		// cout <<"\nTime Complexity: O(d*(n+k))\nWhere, \n\td - no. of digits of max number\n\tn - no. of elements of array\n\tk - range of distinct elements in array (or maximum number in the array)\n";
 		// cout <<"\nSpace Complexity: O(n+k)\n";
 	}
@@ -257,11 +257,11 @@ private:
 	// 		b = temp;
 	// }
 
-	int getMax(int a[], int n){
+	int getMax(int a[], int n) {
 		int max = a[0];
 		for (int i = 1; i < n; ++i)
 		{
-			if (a[i]>max)
+			if (a[i] > max)
 			{
 				max = a[i];
 			}
@@ -270,16 +270,16 @@ private:
 	}
 
 	// 5
-	int partition(int a[], int lb, int ub){
+	int partition(int a[], int lb, int ub) {
 		int pivot = a[lb];
 		int start = lb;
 		int end = ub;
-		while(start<=end){
+		while (start <= end) {
 			while (a[start] <= pivot)
 			{
 				start++;
 			}
-			while(a[end] > pivot){
+			while (a[end] > pivot) {
 				end--;
 			}
 			if (start < end)
@@ -291,71 +291,71 @@ private:
 		return end;
 	}
 
-	void quickSortMain(int a[], int lb, int ub){
-		int loc;		
-		if (lb<=ub){
+	void quickSortMain(int a[], int lb, int ub) {
+		int loc;
+		if (lb <= ub) {
 			loc = partition(a, lb, ub);
-			quickSortMain(a, lb, loc-1);
-			quickSortMain(a, loc+1, ub);
+			quickSortMain(a, lb, loc - 1);
+			quickSortMain(a, loc + 1, ub);
 		}
 	}
 
 	// 6
 
-	void mergeSortMain(int a[], int lb, int ub){
+	void mergeSortMain(int a[], int lb, int ub) {
 		int mid;
-		if (lb<ub)
+		if (lb < ub)
 		{
-			mid = (lb+ub)/2;
+			mid = (lb + ub) / 2;
 			mergeSortMain(a, lb, mid);
-			mergeSortMain(a, mid+1, ub);
+			mergeSortMain(a, mid + 1, ub);
 			merge(a, lb, mid, ub);
 		}
 	}
 
-	void merge(int a[], int lb, int mid, int ub){
-		int i = lb, j = mid+1, k = lb, p, b[ub+1];
-		while(i <= mid && j <= ub){
+	void merge(int a[], int lb, int mid, int ub) {
+		int i = lb, j = mid + 1, k = lb, p, b[ub + 1];
+		while (i <= mid && j <= ub) {
 			if (a[i] <= a[j])
 			{
 				b[k] = a[i];
 				i++;
-			}else{
+			} else {
 				b[k] = a[j];
 				j++;
 			}
 			k++;
 		}
-		if(i>mid){
-			while(j<=ub){
+		if (i > mid) {
+			while (j <= ub) {
 				b[k] = a[j];
 				k++;
 				j++;
 			}
-		}else{
-			while(i<=mid){
+		} else {
+			while (i <= mid) {
 				b[k] = a[i];
 				i++;
 				k++;
 			}
 		}
 		p = lb;
-		while(p<=ub){
+		while (p <= ub) {
 			a[p] = b[p];
 			p++;
 		}
 	}
 
 	// 8
-	void radixSortMain(int a[], int n){
+	void radixSortMain(int a[], int n) {
 		int max = getMax(a, n);
-		for (int pos = 1; (max/pos) > 0; pos *= 10)
+		for (int pos = 1; (max / pos) > 0; pos *= 10)
 		{
 			rdCountSort(a, n, pos);
 		}
 	}
 
-	void rdCountSort(int a[], int n, int pos){
+	void rdCountSort(int a[], int n, int pos) {
 		int count[n], b[n];
 		// Initialize the count for each element in array to 0
 		for (int i = 0; i < n; ++i)
@@ -366,20 +366,20 @@ private:
 		// For each element we store the count
 		for (int i = 0; i < n; ++i)
 		{
-			count[(a[i]/pos)%10]++;
+			count[(a[i] / pos) % 10]++;
 		}
 
 		// Store the cummulative count of each array
 		for (int i = 1; i <= n; ++i)
 		{
-			count[i] += count[i-1];
+			count[i] += count[i - 1];
 		}
 
 		// Search the index of each element of the actual array in count array, and
 		// place the elements in output array
-		for (int i = n-1; i >= 0; --i)
+		for (int i = n - 1; i >= 0; --i)
 		{
-			b[--count[(a[i]/pos)%10]] = a[i];
+			b[--count[(a[i] / pos) % 10]] = a[i];
 		}
 
 		// Transfer the sorted items into actual array
@@ -393,78 +393,78 @@ private:
 int main(int argc, char const *argv[])
 {
 	int n, ch, c;
-	do{
-		cout<<"Enter the size of array: ";
-		cin>>n;
+	do {
+		cout << "Enter the size of array: ";
+		cin >> n;
 		sort s(n);
-		cout<<"\nEnter "<<n<<" elements of array: ";
+		cout << "\nEnter " << n << " elements of array: ";
 		s.takeInput();
-		cout<<"\nArray elements before sorting: ";
+		cout << "\nArray elements before sorting: ";
 		s.display();
-		cout<<"\n\nEnter 1 to perform bubble sort";
-		cout<<"\nEnter 2 to perform revised bubble sort";
-		cout<<"\nEnter 3 to perform selection sort";
-		cout<<"\nEnter 4 to perform insertion sort";
-		cout<<"\nEnter 5 to perform quick sort";
-		cout<<"\nEnter 6 to perform merge sort";
-		cout<<"\nEnter 7 to perform counting sort";
-		cout<<"\nEnter 8 to perform radix sort";
+		cout << "\n\nEnter 1 to perform bubble sort";
+		cout << "\nEnter 2 to perform revised bubble sort";
+		cout << "\nEnter 3 to perform selection sort";
+		cout << "\nEnter 4 to perform insertion sort";
+		cout << "\nEnter 5 to perform quick sort";
+		cout << "\nEnter 6 to perform merge sort";
+		cout << "\nEnter 7 to perform counting sort";
+		cout << "\nEnter 8 to perform radix sort";
 		// cout<<"\nEnter 9 to perform bucket sort";
-		cout<<"\nEnter your choice to perform the sorting algorithm: ";
-		cin>>ch;
-		switch(ch){
-			case 1:
-				s.bubbleSort();
-				cout<<"Array Elements after sorting: ";
-				s.display();
-				break;
-			case 2:
-				s.revisedBubbleSort();
-				cout<<"Array Elements after sorting: ";
-				s.display();
-				break;
-			case 3:
-				s.selectionSort();
-				cout<<"Array Elements after sorting: ";
-				s.display();
-				break;
-			case 4: 
-				s.insertionSort();
-				cout<<"Array Elements after sorting: ";
-				s.display();
-				break;
-		 	case 5:
-		 		s.quickSort();
-		 		cout<<"Array Elements after sorting: ";
-		 		s.display();
-		 		break;
-		 	case 6: 
-		 		s.mergeSort();
-		 		cout<<"Array Elements after sorting: ";
-		 		s.display();
-		 		break;
-		 	case 7: 
-		 		s.countSort();
-		 		cout<<"Array Elements after sorting: ";
-		 		s.display();
-		 		break;
-		 	case 8: 
-		 		s.radixSort();
-		 		cout<<"Array Elements after sorting: ";
-		 		s.display();
-		 		break;
-		 	// case 9: 
-		 	// 	s.bucketSort();
-		 	// 	cout<<"Array Elements after sorting: ";
-		 	// 	s.display();
-		 	// 	break;
-		 	default:
-		 		cout<<"\nInvalid choice\n";
-		 		break;
+		cout << "\nEnter your choice to perform the sorting algorithm: ";
+		cin >> ch;
+		switch (ch) {
+		case 1:
+			s.bubbleSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		case 2:
+			s.revisedBubbleSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		case 3:
+			s.selectionSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		case 4:
+			s.insertionSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		case 5:
+			s.quickSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		case 6:
+			s.mergeSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		case 7:
+			s.countSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		case 8:
+			s.radixSort();
+			cout << "Array Elements after sorting: ";
+			s.display();
+			break;
+		// case 9:
+		// 	s.bucketSort();
+		// 	cout<<"Array Elements after sorting: ";
+		// 	s.display();
+		// 	break;
+		default:
+			cout << "\nInvalid choice\n";
+			break;
 		}
-		cout<<"\nDo you want to continue? 1 for Yes / any key to exit: ";
-		cin>>c;
-	}while(c==1);
+		cout << "\nDo you want to continue? 1 for Yes / any key to exit: ";
+		cin >> c;
+	} while (c == 1);
 	// getch();
 	return 0;
 }

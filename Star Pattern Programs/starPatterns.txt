@@ -81,3 +81,13 @@ NOTE:- Taken row= 5 for showing sample pattern, you need to take input for
 
 
 13. Print Your names's initials in star pattern like mine are "TRK" ;
+
+14. Diamond pattern
+
+      *
+    * * *
+  * * * * *
+* * * * * * *
+  * * * * * 
+    * * * 
+      *
