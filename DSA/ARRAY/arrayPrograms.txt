@@ -2,22 +2,23 @@
 2. Introduction to 2-D Arrays 
 3. Sorting of Array
 4. Array Rotation
-5. Reverse an array or string-
+5. Reverse an array or string
 6. Find pairs in array with given sum
 7. Sort the array in Waveform
 8. Majority Element in Array
-9. Boyer-Moore’s Voting Algorithm
-10. K-pairs with smallest sum in 2 arrays
-11. Largest Sum Contigous SubArray
-12. Maximum Average Sub-array of K length
-13. Size of sub-array with max sum
-14. Sub-array with given sum
-15. Triplet that sum to a given value
-16. Segregate 0’s and 1’s in array
-17. Segregate 0’s 1’s and 2’s in array
-18. Sort elements in array by frequency
-19. Finding pythagorean triplets in an array 
-20. Reorder array using given indexes
-21. Merging two sorted arrays
-22. Minimum number of Merge Operations to make an Array Palindrome
-23. Find Zeros to be Flipped so that number of Consecutive 1’s is maximized
+9. Swap Alternate elements
+10. Boyer-Moore’s Voting Algorithm
+11. K-pairs with smallest sum in 2 arrays
+12. Largest Sum Contigous SubArray
+13. Maximum Average Sub-array of K length
+14. Size of sub-array with max sum
+15. Sub-array with given sum
+16. Triplet that sum to a given value
+17. Segregate 0’s and 1’s in array
+18. Segregate 0’s 1’s and 2’s in array
+19. Sort elements in array by frequency
+20. Finding pythagorean triplets in an array 
+21. Reorder array using given indexes
+22. Merging two sorted arrays
+23. Minimum number of Merge Operations to make an Array Palindrome
+24. Find Zeros to be Flipped so that number of Consecutive 1’s is maximized
