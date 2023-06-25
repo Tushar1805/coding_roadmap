@@ -37,7 +37,7 @@ Working with Numbers
 32. Octal to Decimal conversion
 33. Hexadecimal to Decimal conversion
 34. Decimal to Binary conversion
-35. Decimal to Octal Conversion:
+35. Decimal to Octal Conversion
 36. Decimal to Hexadecimal Conversion
 37. Binary to Octal conversion
 38. Octal to Binary conversion
