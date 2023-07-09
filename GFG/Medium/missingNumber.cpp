@@ -50,24 +50,41 @@ int missingNumber(int a[], int n)
 	// return k;
 
 	//! Better approach, TC - O(n), SC - O(1)
-	unordered_map<int, int> m;
-	int k = 1;
+	// unordered_map<int, int> m;
+	// int k = 1;
+	// for (int i = 0; i < n; ++i)
+	// {
+	// 	if (a[i] <= 0) continue;
+	// 	// cout << a[i] << endl;
+	// 	m[a[i]]++;
+	// }
+
+	// while (true) {
+	// 	if (m[k] > 0) {
+	// 		k++;
+	// 	}
+	// 	else {
+	// 		break;
+	// 	}
+	// }
+	// return k;
+
+	//! Better Approach than previous TC- O(n), SC- O(1)
 	for (int i = 0; i < n; ++i)
 	{
-		if (a[i] <= 0) continue;
-		// cout << a[i] << endl;
-		m[a[i]]++;
+		while (a[i] >= 1 && a[i] <= n && a[i] != a[a[i] - 1]) {
+			int temp = a[a[i] - 1];
+			a[a[i] - 1] = a[i];
+			a[i] = temp;
+		}
 	}
 
-	while (true) {
-		if (m[k] > 0) {
-			k++;
-		}
-		else {
-			break;
-		}
+	for (int i = 0; i < n; ++i)
+	{
+		if (a[i] != i + 1)
+			return i + 1;
 	}
-	return k;
+	return n + 1;
 }
 
 int main(int argc, char const *argv[])
