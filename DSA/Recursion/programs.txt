@@ -1,3 +1,6 @@
 1. Introduction to recursion
 2. Factorial using recursion
 3. Power function using recursion
+4. Reverse an array using recursion
+5. Check a string is palindrome or not using recursion
+6. Print nth fibonacci number using recursion
