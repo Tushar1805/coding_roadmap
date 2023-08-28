@@ -4,3 +4,4 @@
 4. Reverse a linked list
 5. Double a Number Represented as a Linked List 
 6. Add Two Numbers
+7. Remove duplicates from a sorted linked list
