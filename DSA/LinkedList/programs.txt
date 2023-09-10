@@ -8,3 +8,4 @@
 8. Delete nodes having greater value on right
 9. Find the first node of loop in linked list
 10. Detect Loop in linked list
+11. Remove loop in linked list
