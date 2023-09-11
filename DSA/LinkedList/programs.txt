@@ -7,3 +7,4 @@
 7. Remove duplicates from a sorted linked list
 8. Delete nodes having greater value on right
 9. Find the first node of loop in linked list
+10. Detect Loop in linked list
