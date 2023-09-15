@@ -39,7 +39,7 @@ int majorityElement(int n, int arr[]) {
 
 	// Step 3 - return majority element
 
-	if (count >= n / 2) {
+	if (count > n / 2) {
 		return candidate;
 	}
 	return -1;
