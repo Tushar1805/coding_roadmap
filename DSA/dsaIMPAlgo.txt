@@ -1,0 +1,82 @@
+Most Important Data Structures 🔥
+
+1. Arrays: A collection of elements, each identified by an index or a key.
+
+2. Linked Lists: A linear data structure where elements are connected via pointers.
+
+3. Stacks: A linear data structure that follows the Last-In-First-Out (LIFO) principle.
+
+4. Queues: A linear data structure that follows the First-In-First-Out (FIFO) principle.
+
+5. Trees: Hierarchical data structures with a root element and child nodes. Types include Binary Trees, Binary Search Trees (BST), AVL Trees, etc.
+
+6. Heaps: A specialized tree-based data structure that satisfies the heap property. Commonly used for priority queues.
+
+7. Graphs: A collection of nodes (vertices) and edges, used to represent complex relationships between data.
+
+8. Hash Tables: Data structures that store key-value pairs and allow for efficient retrieval and insertion.
+
+9. Trie: A tree-like data structure used for storing a dynamic set of strings.
+
+10. Disjoint-Set (Union-Find) Data Structure: Used to efficiently track a partition of a set into disjoint subsets.
+
+Most Important Algorithms 🔥
+
+1. Searching Algorithms:
+  - Linear Search
+  - Binary Search
+  - Depth-First Search (DFS)
+  - Breadth-First Search (BFS)
+
+2. Sorting Algorithms:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+  - Heap Sort
+
+3. Dynamic Programming Algorithms:
+  - Fibonacci Sequence
+  - Longest Common Subsequence
+  - Knapsack Problem
+  - Matrix Chain Multiplication
+  - Shortest Path Algorithms (e.g., Dijkstra's and Bellman-Ford)
+
+4. Greedy Algorithms:
+  - Kruskal's Algorithm (Minimum Spanning Tree)
+  - Prim's Algorithm (Minimum Spanning Tree)
+  - Huffman Coding (Data Compression)
+
+5. Graph Algorithms:
+  - Depth-First Search (DFS)
+  - Breadth-First Search (BFS)
+  - Dijkstra's Shortest Path Algorithm
+  - Bellman-Ford Algorithm
+  - Topological Sorting
+
+6. Divide and Conquer Algorithms:
+  - Binary Search
+  - Merge Sort
+  - Quick Sort
+  - Karatsuba Multiplication
+
+7. Dynamic Data Structures:
+  - Dynamic Arrays
+  - Dynamic Lists
+  - Self-balancing Binary Search Trees (e.g., AVL and Red-Black trees)
+
+8. String Matching Algorithms:
+  - Naive String Matching
+  - Knuth-Morris-Pratt (KMP) Algorithm
+  - Rabin-Karp Algorithm
+
+9. Numerical Algorithms:
+  - Euclidean Algorithm (GCD calculation)
+  - Primality Testing (e.g., Miller-Rabin)
+  - Newton-Raphson Method (Root finding)
+
+10. Backtracking Algorithms:
+  - N-Queens Problem
+  - Sudoku Solver
+  - Hamiltonian Cycle
