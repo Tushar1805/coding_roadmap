@@ -1,0 +1,15 @@
+1. Find largest element in the array
+2. Find the second largest and second smallest element in the array
+3. Check if array is sorted
+4. Remove duplicates from the array
+5. Rotate array
+6. Rotate array by d places
+7. Move all zeroes to the end of the array
+8. Linear Search
+9. Union of two sorted arrays
+10. Intersection of two sorted arrays
+11. Finding a missing number in the array
+12. Maximum consecutive ones
+13. Find the number that appears once
+14. Largest subarray with sum k
+15. Array rotations
