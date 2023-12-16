@@ -1,0 +1,14 @@
+1. 2 sum problem
+2. Sort an array of 0's 1's and 2's
+3. majority Element (>n/2 times) (Boyer-Moore’s Voting Algorithm)
+4. Kadane's Algorithm, maximum subarray sum
+5. Print subarray with maximum subarray sum(extended version of above problem)
+6. Stock buy and sell
+7. Rearrange array in alternating positive and negative items
+8. Next permutation
+9. Leaders in array
+10. Longest consecutive sequence in array
+11. Set matrix zero
+12. Rotate matrix by 90 degrees
+13. Print matrix in spiral form
+14. Count subarray with given sum
