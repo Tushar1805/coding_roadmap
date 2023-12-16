@@ -1,7 +1,6 @@
 1. Introduction to Arrays
 2. Introduction to 2-D Arrays 
 3. Sorting of Array
-4. Array Rotation
 5. Reverse an array or string
 6. Find pairs in array with given sum
 7. Sort the array in Waveform
