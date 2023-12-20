@@ -43,12 +43,12 @@ int solution3(vector<int> arr, int n, int s) {
 		if (sum == s) {
 			len = max(len, i + 1);
 		}
-		int rem = sum - arr[i];
+		int rem = sum - s;
 		if (mpp.find(rem) != mpp.end()) {
 			len = max(len, i - mpp[rem]);
 		}
 		if (mpp.find(rem) == mpp.end()) {
-			mpp[rem] = i;
+			mpp[sum] = i;
 		}
 	}
 	return len;
