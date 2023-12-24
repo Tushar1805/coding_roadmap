@@ -4,17 +4,13 @@
 5. Reverse an array or string
 6. Find pairs in array with given sum
 7. Sort the array in Waveform
-8. Majority Element in Array
 9. Swap Alternate elements
-10. Boyer-Moore’s Voting Algorithm
 11. K-pairs with smallest sum in 2 arrays
 12. Largest Sum Contigous SubArray
 13. Maximum Average Sub-array of K length
 14. Size of sub-array with max sum
-15. Sub-array with given sum
 16. Triplet that sum to a given value
 17. Segregate 0’s and 1’s in array
-18. Segregate 0’s 1’s and 2’s in array
 19. Sort elements in array by frequency
 20. Finding pythagorean triplets in an array 
 21. Reorder array using given indexes

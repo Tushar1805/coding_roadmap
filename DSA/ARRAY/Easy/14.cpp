@@ -43,7 +43,7 @@ int solution3(vector<int> arr, int n, int s) {
 		if (sum == s) {
 			len = max(len, i + 1);
 		}
-		int rem = sum - s;
+		int rem = sum - s; // current_total_sum - sum_to_find
 		if (mpp.find(rem) != mpp.end()) {
 			len = max(len, i - mpp[rem]);
 		}
@@ -54,17 +54,17 @@ int solution3(vector<int> arr, int n, int s) {
 	return len;
 }
 
-// Optimized approach: Greedy or two pointe
+// Optimized approach: Greedy or two pointer
 int solution4(vector<int> arr, int n, int s) {
 	int left = 0, right = 0;
 	int len = 0;
 	int sum = 0;
 	while (right < n) {
-		while (left <= right && sum > s) {
+		while (sum > s) {
 			sum -= arr[left];
 			left++;
 		}
-		if (sum == s) {
+		if (left <= right && sum == s) {
 			len = max(len, right - left + 1);
 		}
 		right++;
