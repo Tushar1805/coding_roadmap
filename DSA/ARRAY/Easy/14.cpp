@@ -58,7 +58,7 @@ int solution3(vector<int> arr, int n, int s) {
 int solution4(vector<int> arr, int n, int s) {
 	int left = 0, right = 0;
 	int len = 0;
-	int sum = 0;
+	int sum = arr[0];
 	while (right < n) {
 		while (sum > s) {
 			sum -= arr[left];
