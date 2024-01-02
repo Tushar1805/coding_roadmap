@@ -1,0 +1,12 @@
+1. Pascal's Triangle
+2. Majority Element (n / 3)
+3. 3-Sum problem
+4. 4-Sum problem
+5. Largest subarray with 0 sum
+6. count number of subarray with given XOR k
+7. Merge overlapping subintervals
+8. Merge two sorted arrays without extra space
+9. Find the repeating and missing number
+10. Count Inversions
+11. Reverse Pairs
+12. Maximum produnct subarray
