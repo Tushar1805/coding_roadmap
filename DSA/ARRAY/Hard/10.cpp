@@ -54,6 +54,7 @@ vector<int> solution3(vector<int> arr, int n) {
 }
 
 // Optimal Approach 2: Using XOR operation
+// TC - O(3n), SC - O(1)
 vector<int> solution4(vector<int> arr, int n) {
 	int xr = 0;
 	for (int i = 0; i < n; i++) {
