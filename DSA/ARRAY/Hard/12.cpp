@@ -13,6 +13,7 @@ int solution1(vector<int> arr, int n) {
 }
 
 // Optimal Approach: Merge Sort
+// TC - O(log n + n 2n log n), SC - O(n)
 int cnt = 0;
 void merge(vector<int> &arr, int low, int mid, int high) {
 
