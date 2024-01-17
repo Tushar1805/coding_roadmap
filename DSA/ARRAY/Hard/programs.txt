@@ -10,4 +10,4 @@
 10. Find the repeating and missing number
 11. Count Inversions
 12. Reverse Pairs
-13. Maximum produnct subarray
+13. Maximum product subarray
