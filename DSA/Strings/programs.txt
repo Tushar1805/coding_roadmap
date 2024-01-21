@@ -1,7 +1,7 @@
 1. Reveerse string II
 2. Valid Parentheses
-3. Check Palindrome (valid palindrome)
-4. Remove outermost paranthesis
+3. Check Palindrome (valid palindrome - leetcode)
+4. Remove outermost parantheses
 5. Reverse words in a given string
 6. Largest odd number in a string
 7. Longest common prefix
