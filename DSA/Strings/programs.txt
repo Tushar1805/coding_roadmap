@@ -1,9 +1,10 @@
 1. Reveerse string II
-2. Check Palindrome (valid palindrome)
-3. Remove outermost paranthesis
-4. Reverse words in a given string
-5. Largest odd number in a string
-6. Longest common prefix
-7. Isomorphic String
-8. Check whether one string is a rotation of another
-9. Check if two strings are anagram of each other 
+2. Valid Parentheses
+3. Check Palindrome (valid palindrome)
+4. Remove outermost paranthesis
+5. Reverse words in a given string
+6. Largest odd number in a string
+7. Longest common prefix
+8. Isomorphic String
+9. Check whether one string is a rotation of another
+10. Check if two strings are anagram of each other 
