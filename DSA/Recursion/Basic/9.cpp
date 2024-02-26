@@ -3,6 +3,14 @@
 #include<stdlib.h>
 using namespace std;
 
+// Using two pointers
+void reverseArray(int l, int r, vector<int>&arr) {
+	if (l >= r) return;
+	swap(arr[l], arr[r]);
+	reverseArray(l + 1, r - 1, arr);
+}
+
+// Using only one variable
 int i = 0;
 void reverseArray(int n, vector<int>&arr) {
 	if (i == n / 2)

@@ -1,0 +1,13 @@
+1. Introduction to recursion
+2. Print name 5 times
+3. Print Linearly from 1 to N
+4. Print from N to 1
+5. Print Linearly from 1 to N(but by backtrack)
+6. Print from N to 1 (but by backtrack)
+7. Factorial using recursion
+8. Power function using recursion
+9. Reverse an array using recursion
+10. Check a string is palindrome or not using recursion
+11. Print nth fibonacci number using recursion
+12. Sum of N natural numbers using recursion
+ 
