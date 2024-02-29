@@ -1,3 +1,4 @@
 1. Print all Subsequences
 2. Printing subsequences with sum k
 3. Printing any one subsequence with sum k
+4. Count the subsequences with sum equal to k
