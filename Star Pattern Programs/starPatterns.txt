@@ -91,3 +91,16 @@ NOTE:- Taken row= 5 for showing sample pattern, you need to take input for
   * * * * * 
     * * * 
       *
+
+
+15.
+
+ *
+   *
+     *
+   *
+ *
+   *
+     *
+   *
+ *
