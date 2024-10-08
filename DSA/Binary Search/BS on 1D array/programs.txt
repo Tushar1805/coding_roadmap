@@ -1,0 +1,13 @@
+1. Binary search to find x in sorted array
+2. Implement lower bound
+3. Implement upper bound
+4. Search insert position
+5. Floor/ceil in sorted array
+6. find the first or last occurence or a given number in a sorted array
+7. Count occurence of a number in a sorted array duplicates
+8. Search rotated sorted array 1
+9. Search rotated sorted array 2
+10. find minimum in rotated sorted array
+11. find out how many times has an array been rotated
+12. Single element in a sorted array
+13. find peak element
